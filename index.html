@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Super Trunfo - Rainbow Six Siege</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="div-background">
+    <header class="container">
+      <img src="https://cdn2.unrealengine.com/r6s-y6-epic-std-logo-neg-400x150-400x150-f601bdc2c7e8.png?h=270&resize=1&w=480" class="page-logo" alt="Rainbow Six Siege Logo">
+      <a href="" target="_blank">
+        <img src="https://www.theunofficialsyndicate.com/img/TUS/logo.png" alt="The Unofficial Syndicate Logo" class="unofficial-logo">
+      </a>
+      <div class="div-title">
+        <h1 class="page-title"><strong>Super Trunfo</strong></h1>
+      </div>
+    </header>
+
+    <main class="div-game" id="div-game">
+      <div class="desk">
+        <div class="block" id="block-left">
+          <h3 class="card-label" id="left-label">Seu Operador</h3>
+          <div class="card" id="card-left">
+            <div class="info">
+              <div class="attribs" id="attribs-left"></div>
+            </div>
+          </div>
+        </div>
+        <div class="block" id="block-center">
+          <h3 class="card-label" id="center-label">Label Central</h3>
+          <div class="card" id="card-center">
+            <p id="info-center">Eu falo: Rainbow e vocês... <br><strong>Aceita o Desafio?</strong></p>
+          </div>
+        </div>
+        <div class="block" id="block-right">
+          <h3 class="card-label" id="right-label">Seu Oponente</h3>
+          <div class="card" id="card-right">
+            <div class="info">
+              <div class="attribs" id="attribs-right"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="div-end" id="div-end">
+        <div class="end-info">
+          <label id="cartas-jogador"></label>
+        </div>
+        <div class="end-info">
+          <label id="partidas"></label>
+        </div>
+        <div class="end-info">
+          <label id="cartas-maquina"></p>
+        </div>
+      </div>
+      <button type="button" id="btnJogar" onclick="iniciarJogo()" title="Clique para iniciar o jogo">Iniciar Confronto</button>
+    </main>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+
+</html>
